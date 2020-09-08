@@ -5,6 +5,7 @@ target/
 .idea/
 .idea
 .repository/
+.gitignore
 *.iml
 *.iws
 *.jrtc
@@ -14,7 +15,7 @@ target/
 *.properties
 *.jar
 
-
+!/1.JavaSyntax/*
 /2.JavaCore/
 /3.JavaMultithreading/
 /4.JavaCollections/
