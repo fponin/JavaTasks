@@ -10,4 +10,9 @@ public class Solution {
     public static void main(String[] args) {
         printString("Hello, Amigo!");
     }
+
+    public static void printString (String string) {
+        System.out.println(string);
+    }
+
 }
