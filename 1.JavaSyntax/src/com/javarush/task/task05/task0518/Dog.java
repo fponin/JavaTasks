@@ -6,9 +6,9 @@ package com.javarush.task.task05.task0518;
 
 
 public class Dog {
-String name;
-int height;
-String color;
+    String name;
+    int height;
+    String color;
 
     public Dog(String name, int height, String color) {
         this.name = name;
