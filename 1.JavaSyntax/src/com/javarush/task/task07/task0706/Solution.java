@@ -17,12 +17,12 @@ public class Solution {
         int summNeChet = 0;
         for (int i = 0; i < 15; i++) {
             ints[i] = Integer.parseInt(reader.readLine());
-            if (i % 2 == 0){
+            if (i % 2 == 0) {
                 summChet += ints[i];
             } else
-                summNeChet +=ints[i];
+                summNeChet += ints[i];
         }
-        if (summChet > summNeChet){
+        if (summChet > summNeChet) {
             System.out.println("В домах с четными номерами проживает больше жителей.");
         } else
             System.out.println("В домах с нечетными номерами проживает больше жителей.");
